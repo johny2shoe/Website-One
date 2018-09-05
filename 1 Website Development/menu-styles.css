@@ -1,0 +1,113 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  padding: 80px 0 0 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+  font-size: 18px;
+  font-family: 'Martel', serif;;
+}
+
+a:link,
+a:visited {
+  color: #808080;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-line: underline;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 50px;
+  background: #FFF;
+  padding-bottom: 0px;
+  border-bottom: 1px solid black;
+}
+
+.title h1 {
+  margin-bottom: 8px;
+}
+
+.title h2 {
+  margin-bottom: 6px;
+}
+
+.menu {
+  margin-top: 90px;
+  font-size: 14px;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+
+.features-menu {                    /* Add this as a new rule */
+  display: none;
+}
+
+.dropdown:hover .features-menu {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-top: 40px;
+
+  position: absolute;      /* Add these */
+  top: -5px;
+  left: 0px;
+
+   z-index: 1;
+}
+
+.features-menu li {
+  list-style: none;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.features-menu li:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dropdown > span {
+  z-index: 2;
+  position: relative;  /* This is important! */
+  cursor: pointer;
+}
