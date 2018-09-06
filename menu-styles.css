@@ -1,22 +1,4 @@
-/*
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.menu-container {
-  padding: 80px 0 0 40px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu {
-  width: 500px;
-  display: flex;
-  justify-content: space-between;
-}
-*/
+/* Menu styling */
 
 * {
   margin: 0;
@@ -73,7 +55,7 @@ a:hover {
   margin-right: 0;
 }
 
-.features-menu {                    /* Add this as a new rule */
+.features-menu {
   display: none;
 }
 
@@ -82,12 +64,10 @@ a:hover {
   flex-direction: column;
   border-radius: 5px;
   padding-top: 40px;
-
-  position: absolute;      /* Add these */
+  position: absolute;
   top: -5px;
   left: 0px;
-
-   z-index: 1;
+  z-index: 1;     /* Menu Bar Layer */
 }
 
 .features-menu li {
@@ -108,6 +88,56 @@ a:hover {
 
 .dropdown > span {
   z-index: 2;
-  position: relative;  /* This is important! */
+  position: relative;
   cursor: pointer;
+}
+
+
+
+/* Page Body Styling */
+.page {
+  margin: 10px 20px 20px 20px;
+  padding: 200px 40px 20px 40px;
+  border: 2px solid black;
+  font-size: 14px;
+  align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+
+/* About Page Styling */
+}
+
+.about {
+  width: 400px;
+  margin: 20px, 20px;
+  border: 2px solid #5D6063;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+
+}
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.about h6 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.about p {
+  
+  margin: 10px;
 }
