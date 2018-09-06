@@ -31,6 +31,7 @@ a:hover {
   background: #FFF;
   padding-bottom: 0px;
   border-bottom: 1px solid black;
+	border-top: 10px solid #66ffff
 }
 
 .title h1 {
@@ -138,6 +139,6 @@ a:hover {
 }
 
 .about p {
-  
+
   margin: 10px;
 }
