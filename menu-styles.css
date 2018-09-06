@@ -97,7 +97,7 @@ a:hover {
 
 /* Page Body Styling */
 .page {
-  margin: 10px 20px 20px 20px;
+  margin: 0 20px 20px 20px;
   padding: 200px 40px 20px 40px;
   border: 2px solid black;
   font-size: 14px;
