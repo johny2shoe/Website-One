@@ -30,8 +30,8 @@ a:hover {
   padding: 50px;
   background: #FFF;
   padding-bottom: 0px;
-  border-bottom: 1px solid black;
-	border-top: 10px solid #66ffff
+  border-bottom: 1px solid #000000;
+  border-top: 10px solid #66ffff;
 }
 
 .title h1 {
