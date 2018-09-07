@@ -30,8 +30,7 @@ a:hover {
   padding: 50px;
   background: #FFF;
   padding-bottom: 0px;
-  border-bottom: 1px solid black;
-	border-top: 10px solid #66ffff
+  border-bottom: 1px solid #000000;
 }
 
 .title h1 {
@@ -97,7 +96,7 @@ a:hover {
 
 /* Page Body Styling */
 .page {
-  margin: 10px 20px 20px 20px;
+  margin: 0 20px 0 20px;
   padding: 200px 40px 20px 40px;
   border: 2px solid black;
   font-size: 14px;
