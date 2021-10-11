@@ -1,0 +1,202 @@
+/* Menu styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text
+}
+
+body {
+  height: 1200px;
+  font-size: 18px;
+  font-family: 'Martel', serif;;
+  background-color: yellow;
+}
+
+a:link,
+a:visited {
+  color: #808080;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration-line: underline;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 50px;
+  background: #FFF;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #000000;
+
+}
+
+.title h1 {
+  margin-bottom: 8px;
+  color: green;
+}
+
+.title h2 {
+  margin-bottom: 6px;
+  color: red;
+}
+
+.menu {
+  margin-top: 90px;
+  font-size: 14px;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.menu > li:last-of-type {
+  margin-right: 0;
+}
+
+.features-menu {
+  display: none;
+}
+
+.dropdown:hover .features-menu {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding-top: 40px;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  z-index: 1;     /* Menu Bar Layer */
+}
+
+.features-menu li {
+  list-style: none;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.features-menu li:last-of-type {
+  border-bottom: none;
+}
+
+.dropdown {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dropdown > span {
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+/* Page Body Styling */
+.page {
+  margin: 0 20px 0 20px;
+  padding: 260px 40px 20px 40px;
+  border: 2px solid black;
+  font-size: 14px;
+  align: center;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: yellow;
+}
+
+.page h1 {
+  text-align: center;
+  color: green;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+
+.page h2 {
+  color: blue;
+  font-family: "Lucida Handwriting", cursive;
+  
+}
+
+.page h3 {
+  color: orange;
+  
+}
+
+.page h4 {
+  color: brown;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+
+.page h5 {
+  color: red;
+  
+}
+
+.page p {
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+/* About Page Styling */
+}
+
+.about {
+  width: 400px;
+  margin: 20px, 20px;
+  border: 2px solid #5D6063;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about h2 {
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+
+}
+.about img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+
+.about h6 {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.about p {
+
+  margin: 10px;
+}
+
+.bg1 {
+	margin-top: 200px;
+	width: 100%;
+    color: blue;
+    background-color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
